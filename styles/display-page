@@ -1,8 +1,9 @@
 main {
-  padding-top: 90px;
+    padding-top: 90px;
 }
 
 .row {
+  /* margin-top: 90px; */
   margin-left: auto;
   margin-right: auto;
   width: 800px;
@@ -11,7 +12,7 @@ main {
 }
 
 .box {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: block;
   float: left;
   font-size: 0;

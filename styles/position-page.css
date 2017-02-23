@@ -1,1 +1,74 @@
 
+nav {
+background-color: grey;
+
+}
+
+ nav img {
+  margin-left: 50px;
+  height: 50px;
+  border-radius: 100%;
+border: 1px solid black;
+vertical-align: middle;
+display: inline-block;
+}
+
+ul a:hover {
+	color: black;
+}
+
+
+ul {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+li:not(:first-child):before {
+    content: " | ";
+}
+
+body {
+	background: url("https://ae01.alicdn.com/kf/HTB1CkTzLXXXXXcCXFXXq6xXFXXXh/24X43-INCH-Galaxy-Nebula-Wide-Wallpaper-galaxy-planet-Purple-font-b-outer-b-font-font-b.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+main {
+  padding-top: 90px;
+  min-width: 1000px;
+}
+
+.box {
+  margin-top: 150px;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  border: 10px dotted green;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.spacecat, .spacedog {
+  position: absolute;
+  width: 200px;
+}
+
+.spacecat {
+  top: -90px;
+  left: -90px;
+}
+
+.spacedog {
+  bottom: -120px;
+  right: -60px;
+}
